@@ -1,15 +1,16 @@
 spring:
+  application:
+    name: vehicle-service
+  cloud:
+    config:
+      uri: http://localhost:8080
+      username: root
+      password: s3cr3t
   data:
     mongodb:
       host: localhost
       port: 27017
       database: test
-  cloud:
-    config:
-      uri: http://root:s3cr3t@localhost:8080
-      name: vehicle-service
-      profile: default
-      label: main
 
 server:
   port: 8082

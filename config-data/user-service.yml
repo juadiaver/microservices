@@ -1,4 +1,11 @@
 spring:
+  application:
+    name: user-service
+  cloud:
+    config:
+      uri: http://localhost:8080
+      username: root
+      password: s3cr3t
   data:
     mongodb:
       host: localhost
@@ -7,4 +14,3 @@ spring:
 
 server:
   port: 8081
-
