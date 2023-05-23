@@ -9,8 +9,8 @@ spring:
           uri: https://github.com/juadiaver/microservices.git
           searchPaths: config-data
           username: darksoulink@gmail.com
-          password: Espinete17.
-        allowOverride: true
+          password: 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
+
 
   security:
     user:

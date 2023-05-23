@@ -13,4 +13,4 @@ spring:
       database: test
 
 server:
-  port: 8081
+  port: 8085
