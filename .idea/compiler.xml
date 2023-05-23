@@ -12,6 +12,7 @@
         <module name="domain (2) (com.fomation.micromongo)" />
         <module name="infrastructure (2) (com.fomation.micromongo)" />
         <module name="boot (1) (com.micromongodb)" />
+        <module name="gateway-server" />
         <module name="application (1) (com.micromongodb)" />
         <module name="domain (1) (com.micromongodb)" />
         <module name="application (2) (com.fomation.micromongo)" />
