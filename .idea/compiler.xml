@@ -13,8 +13,8 @@
         <module name="infrastructure (2) (com.fomation.micromongo)" />
         <module name="application (1) (com.micromongodb)" />
         <module name="domain (1) (com.micromongodb)" />
-        <module name="application (2) (com.fomation.micromongo)" />
         <module name="boot (2) (com.fomation.micromongo)" />
+        <module name="application (2) (com.fomation.micromongo)" />
         <module name="infrastructure (1) (com.micromongodb)" />
       </profile>
     </annotationProcessing>
@@ -23,6 +23,7 @@
       <module name="boot" target="17" />
       <module name="domain" target="17" />
       <module name="infrastructure" target="17" />
+      <module name="micro01" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
