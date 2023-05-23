@@ -6,7 +6,6 @@ spring:
     name: configserver
   cloud:
     config:
-      fail-fast: true
       server:
         git:
           uri: https://github.com/juadiaver/microservices.git

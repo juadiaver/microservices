@@ -2,12 +2,14 @@ spring:
   config:
     import: configserver:http://localhost:8080
   application:
-    name: users-service
+    name: vehicle-service
   cloud:
     config:
       uri: http://localhost:8080
       username: root
       password: s3cr3t
+
+
 
 
 

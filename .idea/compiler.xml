@@ -13,8 +13,8 @@
         <module name="infrastructure (2) (com.fomation.micromongo)" />
         <module name="application (1) (com.micromongodb)" />
         <module name="domain (1) (com.micromongodb)" />
-        <module name="boot (2) (com.fomation.micromongo)" />
         <module name="application (2) (com.fomation.micromongo)" />
+        <module name="boot (2) (com.fomation.micromongo)" />
         <module name="infrastructure (1) (com.micromongodb)" />
       </profile>
     </annotationProcessing>
@@ -28,13 +28,17 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="application" options="-parameters" />
       <module name="application (1) (com.micromongodb)" options="-parameters" />
       <module name="application (2) (com.fomation.micromongo)" options="-parameters" />
+      <module name="boot" options="-parameters" />
       <module name="boot (1) (com.micromongodb)" options="-parameters" />
       <module name="boot (2) (com.fomation.micromongo)" options="-parameters" />
       <module name="config-server" options="-parameters" />
+      <module name="domain" options="-parameters" />
       <module name="domain (1) (com.micromongodb)" options="-parameters" />
       <module name="domain (2) (com.fomation.micromongo)" options="-parameters" />
+      <module name="infrastructure" options="-parameters" />
       <module name="infrastructure (1) (com.micromongodb)" options="-parameters" />
       <module name="infrastructure (2) (com.fomation.micromongo)" options="-parameters" />
     </option>

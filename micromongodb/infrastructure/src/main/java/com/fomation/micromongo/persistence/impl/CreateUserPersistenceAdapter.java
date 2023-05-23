@@ -6,7 +6,6 @@ import com.fomation.micromongo.model.User;
 
 import com.fomation.micromongo.usecase.CreateUserUseCase;
 import org.modelmapper.ModelMapper;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
