@@ -1,5 +1,5 @@
 server:
-  port: 8095
+  port: 8092
 
 
 spring:
@@ -10,7 +10,11 @@ spring:
       uri: http://localhost:8080
       username: root
       password: s3cr3t
-
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: test
 
 
 
