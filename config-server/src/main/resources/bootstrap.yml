@@ -4,12 +4,15 @@ server:
 spring:
   cloud:
     config:
+      fail-fast: true
       server:
         git:
           uri: https://github.com/juadiaver/microservices.git
           searchPaths: config-data
           username: darksoulink@gmail.com
           password: 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
+          done-on-start: true
+
 
 
   security:
