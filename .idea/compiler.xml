@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="config-server" />
         <module name="registry-server" />
       </profile>
     </annotationProcessing>
@@ -17,7 +18,6 @@
       <module name="boot" target="17" />
       <module name="boot (1) (com.micromongodb)" target="17" />
       <module name="boot (2) (com.fomation.micromongo)" target="17" />
-      <module name="config-server" target="17" />
       <module name="demo" target="17" />
       <module name="domain" target="17" />
       <module name="domain (1) (com.micromongodb)" target="17" />
