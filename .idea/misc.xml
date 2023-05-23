@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/registry-server/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/micromongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/micro02/pom.xml" />
       </list>
     </option>
   </component>
