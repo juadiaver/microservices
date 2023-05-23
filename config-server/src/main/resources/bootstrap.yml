@@ -2,6 +2,8 @@ server:
   port: 8080
 
 spring:
+  application:
+    name: configserver
   cloud:
     config:
       fail-fast: true
@@ -11,7 +13,7 @@ spring:
           searchPaths: config-data
           username: darksoulink@gmail.com
           password: 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
-          done-on-start: true
+          skip-ssl-validation: true
 
 
 
