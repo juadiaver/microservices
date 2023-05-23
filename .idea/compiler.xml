@@ -7,23 +7,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="config-server" />
-        <module name="domain (2) (com.fomation.micromongo)" />
-        <module name="boot (1) (com.micromongodb)" />
-        <module name="infrastructure (2) (com.fomation.micromongo)" />
-        <module name="application (1) (com.micromongodb)" />
-        <module name="domain (1) (com.micromongodb)" />
-        <module name="application (2) (com.fomation.micromongo)" />
-        <module name="boot (2) (com.fomation.micromongo)" />
-        <module name="infrastructure (1) (com.micromongodb)" />
+        <module name="registry-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="application" target="17" />
+      <module name="application (1) (com.micromongodb)" target="17" />
+      <module name="application (2) (com.fomation.micromongo)" target="17" />
       <module name="boot" target="17" />
+      <module name="boot (1) (com.micromongodb)" target="17" />
+      <module name="boot (2) (com.fomation.micromongo)" target="17" />
+      <module name="config-server" target="17" />
+      <module name="demo" target="17" />
       <module name="domain" target="17" />
+      <module name="domain (1) (com.micromongodb)" target="17" />
+      <module name="domain (2) (com.fomation.micromongo)" target="17" />
       <module name="infrastructure" target="17" />
+      <module name="infrastructure (1) (com.micromongodb)" target="17" />
+      <module name="infrastructure (2) (com.fomation.micromongo)" target="17" />
       <module name="micro01" target="17" />
+      <module name="micro02" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -41,6 +44,7 @@
       <module name="infrastructure" options="-parameters" />
       <module name="infrastructure (1) (com.micromongodb)" options="-parameters" />
       <module name="infrastructure (2) (com.fomation.micromongo)" options="-parameters" />
+      <module name="registry-server" options="-parameters" />
     </option>
   </component>
 </project>
