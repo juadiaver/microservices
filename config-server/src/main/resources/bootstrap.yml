@@ -6,4 +6,13 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/juadiaver/microservices.git
+          searchPath: config-data
+          username: darksoulink@gmail.com
+          password: Espinete17.
+
+  security:
+    user:
+      name: root
+      password: s3cr3t
+
