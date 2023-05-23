@@ -13,7 +13,7 @@ spring:
       database: test
 
 server:
-  port: 8091
+  port: 8093
 
 
 
