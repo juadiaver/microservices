@@ -40,6 +40,7 @@
       <module name="domain" options="-parameters" />
       <module name="domain (1) (com.micromongodb)" options="-parameters" />
       <module name="domain (2) (com.fomation.micromongo)" options="-parameters" />
+      <module name="gateway-server" options="-parameters" />
       <module name="infrastructure" options="-parameters" />
       <module name="infrastructure (1) (com.micromongodb)" options="-parameters" />
       <module name="infrastructure (2) (com.fomation.micromongo)" options="-parameters" />
