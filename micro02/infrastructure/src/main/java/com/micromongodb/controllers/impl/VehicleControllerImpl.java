@@ -37,6 +37,7 @@ public class VehicleControllerImpl implements VehicleController {
     }
 
     @Override
+    @RequestMapping("/get")
     @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<List<VehicleDTO>> getVehicles() {
