@@ -1,0 +1,18 @@
+spring:
+  main:
+    web-application-type: reactive
+  config:
+    import: configserver:http://localhost:8080
+  application:
+    name: notification-service
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lowerCaseServiceId: true
+    config:
+      uri: http://localhost:8080
+      username: root
+      password: s3cr3t
+

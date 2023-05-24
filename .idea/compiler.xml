@@ -17,6 +17,7 @@
         <module name="domain (1) (com.micromongodb)" />
         <module name="application (2) (com.fomation.micromongo)" />
         <module name="boot (2) (com.fomation.micromongo)" />
+        <module name="notification-service" />
         <module name="infrastructure (1) (com.micromongodb)" />
       </profile>
     </annotationProcessing>
@@ -44,6 +45,7 @@
       <module name="infrastructure" options="-parameters" />
       <module name="infrastructure (1) (com.micromongodb)" options="-parameters" />
       <module name="infrastructure (2) (com.fomation.micromongo)" options="-parameters" />
+      <module name="notification-service" options="-parameters" />
       <module name="registry-server" options="-parameters" />
     </option>
   </component>

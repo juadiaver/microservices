@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/micromongodb/pom.xml" />
         <option value="$PROJECT_DIR$/micro02/pom.xml" />
         <option value="$PROJECT_DIR$/gateway-server/pom.xml" />
+        <option value="$PROJECT_DIR$/notification-service/pom.xml" />
       </list>
     </option>
   </component>
