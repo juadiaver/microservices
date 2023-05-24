@@ -5,6 +5,8 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8090/eureka/
+  instance:
+    hostname: localhost
 
 spring:
   cloud:
@@ -13,8 +15,12 @@ spring:
         locator:
           enabled: true
         routes:
+          - id: users-service
+            uri: lb://USERS-SERVICE
+            predicates:
+              - Path=/user/**
           - id: vehicle-service
-            uri: lb://vehicle-service
+            uri: lb://VEHICLE-SERVICE
             predicates:
               - Path=/vehicle/**
 
