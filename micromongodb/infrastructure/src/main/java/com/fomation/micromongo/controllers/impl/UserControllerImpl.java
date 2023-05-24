@@ -38,7 +38,7 @@ public class UserControllerImpl implements UserController {
     }
 
     @Override
-    @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value = "/get", method = RequestMethod.GET,produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<List<UserDTO>> getUsers() {
         return new ResponseEntity<>(getUserPersistenceAdapter.getUsers().stream().map(user -> this.modelMapper.map(user,UserDTO.class)).toList(), HttpStatus.OK);
