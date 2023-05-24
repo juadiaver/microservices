@@ -6,6 +6,11 @@ spring:
   application:
     name: users-service
   cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lowerCaseServiceId: true
     config:
       uri: http://localhost:8080
       username: root
