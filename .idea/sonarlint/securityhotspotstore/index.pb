@@ -23,8 +23,6 @@ G
 registry-server/pom.xml,5\5\5581d3f567d299254a53f680bd8d937700ac3779
 –
 fregistry-server/src/main/java/com/formation/micro/eureka/registryserver/RegistryServerApplication.java,7\7\771cd077a9dd852b439cffaa89537152ac4fa885
-P
- config-data/registry-service.yml,b\f\bfdd35aa2cf1a3079982e6bad42765a48de63fb9
 O
 config-data/vehicle-service.yml,a\f\af828e8150c5c003bce8f02b629c8e8bc844765a
 ?

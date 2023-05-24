@@ -27,5 +27,3 @@ O
 config-data/vehicle-service.yml,a\f\af828e8150c5c003bce8f02b629c8e8bc844765a
 ?
 micro02/pom.xml,5\3\53cf813c013f2de86285c423f510be73496691f2
-P
- config-data/registry-service.yml,b\f\bfdd35aa2cf1a3079982e6bad42765a48de63fb9
